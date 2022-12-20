@@ -30,28 +30,28 @@ options {
                             ),
 
                           string(
-                            defaultValue: 'eric-001',
+                            defaultValue: 'don',
                             name: 'DB-Tag',
 			                description: 'Required to enter the image tag',
                             trim: true
                             ),
 
                           string(
-                            defaultValue: 'eric-001',
+                            defaultValue: 'don',
                             name: 'UI-Tag',
 			                description: 'Required to enter the image tag',
                             trim: true
                             ),
 
                           string(
-                            defaultValue: 'eric-001',
+                            defaultValue: 'don',
                             name: 'WEATHER-Tag',
 			                description: 'Required to enter the image tag',
                             trim: true
                             ),
 
                           string(
-                            defaultValue: 'eric-001',
+                            defaultValue: 'don',
                             name: 'AUTH-Tag',
 			                description: 'Required to enter the image tag',
                             trim: true
@@ -62,7 +62,7 @@ options {
             }
         }
  
-        stage('Hello') {
+        stage('BOOM') {
             steps {
                 sh '''
                 ls 
